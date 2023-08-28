@@ -1,3 +1,6 @@
-# probabilistic_aff
+# Bayesian deep learning for affordance segmentation in images
 
-blablabal
+Affordances are a fundamental concept in robotics since they relate available actions for an agent depending on its sensory-motor capabilities and the environment. We present a novel Bayesian deep network to detect affordances in images, at the same time that we quantify the distribution of the aleatoric and epistemic variance at the spatial level. We adapt the MaskRCNN architecture to learn a probabilistic representation using Monte Carlo dropout. Our results outperform the state-of-theart of deterministic networks. We attribute this improvement to a better probabilistic feature space representation on the encoder and the Bayesian variability induced at the mask generation, which adapts better to the object contours. We also introduce the new Probability-based Mask Quality measure that reveals the semantic and spatial differences on a probabilistic instance segmentation model. We modify the existing Probabilistic Detection Quality metric by comparing the binary masks rather than the predicted bounding boxes, achieving a finer-grained evaluation of the probabilistic segmentation. We find aleatoric variance in the contours of the objects due to the camera noise, while epistemic variance appears in visual challenging pixels.
+
+
+![Uploading icra_teaser.png…]()
